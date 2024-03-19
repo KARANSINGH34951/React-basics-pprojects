@@ -1,0 +1,29 @@
+*{
+  font-family: sans-serif;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div button{
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
