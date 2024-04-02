@@ -10,6 +10,7 @@ function App() {
   function changehandler(e){
     console.log(e.target.value);
     setname(e.target.value)
+    
   }
 
   return (

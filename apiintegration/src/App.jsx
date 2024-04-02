@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { useEffect } from 'react'
 
@@ -14,9 +12,10 @@ async function advices(){
   console.log(res)
 }
 
-useEffect(()=>{
-  advices()
-},[])
+// useEffect(()=>{
+//   advices()
+// },[])
+
 
   return (
     <>
