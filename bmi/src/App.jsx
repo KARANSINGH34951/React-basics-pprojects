@@ -23,7 +23,8 @@ function App() {
   },[]);
 
   return (
-    <>
+    <>clear
+    
         <div>
           <h3>count :{count} </h3>
           <h3>count :{time} </h3>
