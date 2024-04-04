@@ -1,0 +1,22 @@
+.faq-item{
+  width: 80vw;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+.faq-item-header:hover{
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+.faq-item-body{
+  background-color: blanchedalmond;
+  max-height: 0;
+  transition: max-height 0.5s ease-in;
+}
