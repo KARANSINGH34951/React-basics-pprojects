@@ -53,4 +53,24 @@ select{
   }
 
 
-  
+.days, .empty{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #ccc;
+  cursor: pointer;
+
+}
+
+.empty{
+  background-color: aquamarine;
+  color: black;
+  border: 2px solid blueviolet;
+
+}
+
+.current{
+  background-color: black;
+  color: white;
+}
